@@ -1,0 +1,21 @@
+echo "# StartGifhubcode" >> README.md
+
+git init //bao loi
+Reinitialized existing Git repository in D:/ProjectStartGifHubCode/StartGifhubcode/.git/ 
+
+----sua loi---set lai duong dan tren github----
+git remote set-url origin https://github.com/duylamhoang2022/StartGifhubcode
+
+-----------------------lenh dua vao thu muc chua source code----------------
+$ cd https://github.com/duylamhoang2022/StartGifhubcode //lenh nay sai bao loi. Ve may ca nhan ko phai may chu Github
+
+----------------------
+$ cd /d/ProjectStartGifHubCode/StartGifhubcode //lenh nay dung
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+------------------------------
+
+git remote add origin https://github.com/duylamhoang2022/StartGifhubcode.git //lenh nay loi
